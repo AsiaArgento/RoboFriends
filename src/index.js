@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Card from './Card';
-import CardList from './CardList';
+import App from './containers/App';
+import Card from './components/Card';
+import CardList from './components/CardList';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
 import { robots } from './robots';
